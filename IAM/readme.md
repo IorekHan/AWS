@@ -14,3 +14,11 @@ IAM provides users, groups and policy applied to them.
 # IAM User Login
 - Use the URL under "Sign-in URL for IAM users in this account" in the root account IAM console under
 - Use the IAM account and account ID to login.
+
+# MFA
+- Multi Factor Authentication
+- Password + security device (virtual, physical)
+- Root user can use Security credentials to Assign MFA devices
+
+# Password Policy
+- In IAM Account Settings
