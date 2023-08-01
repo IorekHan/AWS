@@ -22,3 +22,7 @@ IAM provides users, groups and policy applied to them.
 
 # Password Policy
 - In IAM Account Settings
+
+# Role
+- Services in AWS suppots role with self-defined policy.
+- IAM -> Role -> Create Role to create own roles.
