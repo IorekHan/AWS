@@ -23,3 +23,4 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 
 # Security Groups
 - Firewall with policy restraining accesses to instances
+- You can edit inbound and outbound rules according to ports
