@@ -20,5 +20,6 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
 - public IPv4 address may shift, prive will not
 
+
 # Security Groups
-- Policy restrain accesses to instances
+- Firewall with policy restraining accesses to instances
