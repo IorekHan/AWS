@@ -26,3 +26,8 @@ IAM provides users, groups and policy applied to them.
 # Role
 - Services in AWS suppots role with self-defined policy.
 - IAM -> Role -> Create Role to create own roles.
+
+# Security Tools
+- IAM Credentials Report (account-level): Users
+- IAM Access Advisor (user-level): Permissions
+- IAM -> Credential reports
