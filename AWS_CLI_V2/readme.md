@@ -2,6 +2,8 @@
 - IAM -> User -> select a user
 - Security Credential -> Create Access Key -> CLI
 
+- You can also do cmd lines in Cloud Shell
+
 
 # Login
 ```cmd
