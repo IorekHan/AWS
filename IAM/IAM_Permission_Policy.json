@@ -1,0 +1,26 @@
+{
+  "Version": "2023-01-01",
+"Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:Describe*",
+      "Resource": "*"
+    },
+    
+    {
+      "Effect": "Allow",
+      "Action": "elasticloadbalancing:Describe*",
+      "Resource": "*"
+    },
+      
+    {
+    "Effect": "Allow",
+    "Action": [
+      "cloudwatch:ListMetrics",
+      "cloudwatch:Describe*"
+      ],
+    "Resource": "*"
+    }
+    
+  ]
+}
