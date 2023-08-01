@@ -9,3 +9,8 @@ IAM provides users, groups and policy applied to them.
 - Go to IAM console by search in AWS
 - Go to User
 - Create Use
+
+
+# IAM User Login
+- Use the URL under "Sign-in URL for IAM users in this account" in the root account IAM console under
+- Use the IAM account and account ID to login.
