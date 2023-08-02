@@ -51,3 +51,8 @@ Up to 7 partitions per AZ. Can span across multiple AZs in the same region. Up t
 Virtual network card
 - An ENI enables easy network failover by attching ENI to another instance.
 - Grant an additional private IP.
+
+# EC2 Hibernate
+Freeze the RAM states.
+- Less than 150G RAM
+- Less than 60 days
