@@ -46,3 +46,6 @@ Span across Availability Zones
 Up to 7 partitions per AZ. Can span across multiple AZs in the same region. Up to 100s of EC2 instances.
 - The instances in a partition do not share racks with the instances in the other partitions
 - A partition failure can affect many EC2 but won’t affect other partitions
+
+# Elastic Netwok Interfaces (ENI)
+Virtual network card
