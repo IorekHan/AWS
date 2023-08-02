@@ -60,3 +60,4 @@ Virtual network card
 Freeze the RAM states.
 - Less than 150G RAM
 - Less than 60 days
+- EC2 instance root volume type must be EBS to encrypt content
