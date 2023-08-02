@@ -49,3 +49,5 @@ Up to 7 partitions per AZ. Can span across multiple AZs in the same region. Up t
 
 # Elastic Netwok Interfaces (ENI)
 Virtual network card
+- An ENI enables easy network failover by attching ENI to another instance.
+- Grant an additional private IP.
