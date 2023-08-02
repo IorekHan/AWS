@@ -47,7 +47,10 @@ Up to 7 partitions per AZ. Can span across multiple AZs in the same region. Up t
 - The instances in a partition do not share racks with the instances in the other partitions
 - A partition failure can affect many EC2 but won’t affect other partitions
 
-# Elastic Netwok Interfaces (ENI)
+# Elastic IP
+Fix public IP
+- Default 5 IPs per account
+## Elastic Netwok Interfaces (ENI)
 Virtual network card
 - An ENI enables easy network failover by attching ENI to another instance.
 - Grant an additional private IP.
