@@ -54,6 +54,7 @@ Fix public IP
 Virtual network card
 - An ENI enables easy network failover by attching ENI to another instance.
 - Grant an additional private IP.
+- Bound to AZ
 
 # EC2 Hibernate
 Freeze the RAM states.
