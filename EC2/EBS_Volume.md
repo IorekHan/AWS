@@ -17,3 +17,4 @@ Amazon Machine Image
 1. Create a instance.  
 2. Stop it and make a AMI.
 3. Create a new instance with AMI.
+
