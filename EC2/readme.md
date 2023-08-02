@@ -29,3 +29,20 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 # EC2 Instance Connect
 Create a temporary web interface connected to the instance.
 Note: Should have SSH access rule.
+
+# Placement Groups
+
+## Cluster
+Same Rack, same AZ
+- Great Network
+- Rack fail -> all fail
+
+## Spread
+Span across Availability Zones
+- Limited to 7 instances per AZ per placement group
+- Low risk
+
+## Partition
+Up to 7 partitions per AZ. Can span across multiple AZs in the same region. Up to 100s of EC2 instances.
+- The instances in a partition do not share racks with the instances in the other partitions
+- A partition failure can affect many EC2 but won’t affect other partitions
