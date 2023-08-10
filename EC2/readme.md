@@ -7,9 +7,10 @@ EC2 = Elastic Compute Cloud
 
 # Menu
 
-- [EC2 Instance](# EC2 Instance)
-- [章节二](#章节二)
-- [章节三](#章节三)
+- [EC2 Instance](#chapter-one)
+- [Chapter Two](#chapter-two)
+- [Chapter Three](#chapter-three)
+
 
 
 <br>
