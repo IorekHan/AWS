@@ -111,3 +111,4 @@ Freeze the RAM states.
 - EFS share website files (WordPress)
 - EFS only for Linux Instances (POSIX)
 - Instance store has short-life-cycle atteched to instance
+- When creating EC2 instances, you can only use the following EBS volume types as boot volumes: gp2, gp3, io1, io2, and Magnetic (Standard).
