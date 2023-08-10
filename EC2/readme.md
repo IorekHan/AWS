@@ -62,11 +62,22 @@ Freeze the RAM states.
 - Less than 60 days
 - EC2 instance root volume type must be EBS to encrypt content
 
-# EC2 EFS - Elastic File System
+
+# EFS & EBS & Instance Store
+## EC2 EFS - Elastic File System
 - Shared file system on difference instance
 - Only with Linux
 - Need a security group
 - Can be in multiple zones or one zone
 - Different throughput modes and per formance modes
 
+## EC2 EBS Elastic Block Storage
+- Attched to one instance
+- Locked to one AZ
+- Using snap shot can migrate EBS volumes
 
+## EFS vs EBS vs Instance Store
+- EFS mounting 100s of instances across AZ
+- EFS share website files (WordPress)
+- EFS only for Linux Instances (POSIX)
+- Instance store has short-life-cycle atteched to instance
