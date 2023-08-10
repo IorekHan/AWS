@@ -8,8 +8,8 @@ EC2 = Elastic Compute Cloud
 # Menu
 
 - [EC2 Instance](#chapter-one)
-- [Chapter Two](#chapter-two)
-- [Chapter Three](#chapter-three)
+- [Security Groups](#chapter-two)
+- [EC2 Instance Connect](#chapter-three)
 
 
 
