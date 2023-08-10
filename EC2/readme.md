@@ -72,6 +72,7 @@ Freeze the RAM states.
 - Less than 60 days
 - EC2 instance root volume type must be EBS to encrypt content
 
+<br>
 
 # EFS & EBS & Instance Store
 ## EC2 EFS - Elastic File System
