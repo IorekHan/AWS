@@ -5,12 +5,23 @@ EC2 = Elastic Compute Cloud
 - ELB: Distribute load
 - ASG: Scaling setvices
 
-# Menu
 
-- [EC2 Instance](#chapter-one)
-- [Security Groups](#chapter-two)
-- [EC2 Instance Connect](#chapter-three)
-
+# Table of Contents
+- [EC2 Instance](#ec2-instance)
+  - [Launch Instance](#launch-instance)
+  - [Security Groups](#security-groups)
+  - [EC2 Instance Connect](#ec2-instance-connect)
+- [Placement Groups](#placement-groups)
+  - [Cluster](#cluster)
+  - [Spread](#spread)
+  - [Partition](#partition)
+- [Elastic IP](#elastic-ip)
+  - [Elastic Network Interfaces (ENI)](#elastic-network-interfaces-eni)
+- [EC2 Hibernate](#ec2-hibernate)
+- [EFS & EBS & Instance Store](#efs--ebs--instance-store)
+  - [EC2 EFS - Elastic File System](#ec2-efs---elastic-file-system)
+  - [EC2 EBS - Elastic Block Storage](#ec2-ebs-elastic-block-storage)
+  - [EFS vs EBS vs Instance Store](#efs-vs-ebs-vs-instance-store)
 
 
 <br>
@@ -31,14 +42,14 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 - public IPv4 address may shift, prive will not
 
 
-# Security Groups
+## Security Groups
 - Firewall with policy restraining accesses to instances
 - You can edit inbound and outbound rules according to ports
 - Roles can be applied to Instances
 
-<br>
 
-# EC2 Instance Connect
+
+## EC2 Instance Connect
 Create a temporary web interface connected to the instance.
 Note: Should have SSH access rule.
 
