@@ -5,6 +5,8 @@ EC2 = Elastic Compute Cloud
 - ELB: Distribute load
 - ASG: Scaling setvices
 
+<br>
+
 # EC2 Instance
 - EC2 -> Launch Instance
 - New Instance Hello World User Data:
@@ -26,9 +28,13 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 - You can edit inbound and outbound rules according to ports
 - Roles can be applied to Instances
 
+<br>
+
 # EC2 Instance Connect
 Create a temporary web interface connected to the instance.
 Note: Should have SSH access rule.
+
+<br>
 
 # Placement Groups
 
@@ -47,6 +53,8 @@ Up to 7 partitions per AZ. Can span across multiple AZs in the same region. Up t
 - The instances in a partition do not share racks with the instances in the other partitions
 - A partition failure can affect many EC2 but won’t affect other partitions
 
+<br>
+
 # Elastic IP
 Fix public IP
 - Default 5 IPs per account
@@ -55,6 +63,8 @@ Virtual network card
 - An ENI enables easy network failover by attching ENI to another instance.
 - Grant an additional private IP.
 - Bound to AZ
+
+<br>
 
 # EC2 Hibernate
 Freeze the RAM states.
