@@ -61,3 +61,12 @@ Freeze the RAM states.
 - Less than 150G RAM
 - Less than 60 days
 - EC2 instance root volume type must be EBS to encrypt content
+
+# EC2 EFS - Elastic File System
+- Shared file system on difference instance
+- Only with Linux
+- Need a security group
+- Can be in multiple zones or one zone
+- Different throughput modes and per formance modes
+
+
